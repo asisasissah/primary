@@ -1,0 +1,3 @@
+# SentinelSRE hotfix probe
+# add backward-compatible fallback
+discount = payload.get("promo_code") or payload.get("discount_code")
